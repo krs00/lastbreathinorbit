@@ -1,6 +1,25 @@
 @import "./styles/reset.css";
 
 /* Add global styles here */
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.no-select {
+  user-select: none;
+}
+
+#page-content {
+  margin: 3rem;
+}
+
+#orange-box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 115, 0);
+  margin: 3rem; 
+}
+
 
 /* Breakpoints for responsive css */
 
